@@ -1,0 +1,132 @@
+main {
+  margin: 0px auto;
+  max-width: 70%;
+}
+
+.code {
+  font-family: monospace;
+}
+
+a {
+  color: royalblue;
+  text-decoration:underline;
+}
+
+.date {
+  color:#571B7E;
+  font-family:monospace;
+  font-size:15px;
+  background-color:#eeeeee
+}
+
+.bb {
+  -webkit-text-stroke: 0.2px;
+  color:#7846ff;
+  font-family:'B612';
+  text-shadw: -1px 0.5px 0px #000000;
+}
+
+.gb {
+  color:#ff4b00;
+  font-family: Helvetica;
+}
+
+.fls {
+  color:#228B22;
+  font-family:'Cuprum';
+  font-size: 17px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltip-img {
+  visibility: hidden;
+  color: #000;
+  text-align: center;
+  
+  /* Position the tooltip */
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -110px;
+}
+
+.tooltip:hover .tooltip-img {
+  visibility: visible;
+}
+
+img {
+  border: 1px solid #ddd;
+  padding: 5px;
+  margin-left: 150px;
+  width: 300px;
+}
+
+summary::marker {
+  font-size: 16px;
+}
+
+summary {
+  padding: 4px;
+  margin-bottom: -1px;
+  background-image: linear-gradient(white, #eeeeee);
+  width: 100%;
+  border: 1.5px ridge grey;
+  box-shadow: 0px 0.11rem 0.11rem #bbbbbb;
+  cursor: pointer;
+}
+
+details {
+  padding-right: 0.63rem;
+  box-shadow: 0px 0.11rem 0.11rem #bbbbbb;
+}
+
+details[open] {
+  size: 50%;
+  background-color: #eeeeee;
+  border: 0.05rem solid grey;
+  margin-bottom: 12px;
+}
+
+details > p {
+  padding: 5px;
+  margin-bottom: -1px;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    max-width: 100%;
+    font-size: 15px;
+  }
+  body {
+    margin: 10px 1em 1em 1em;
+  }
+  .writing {
+    font-size: 12px;
+  }
+  .gb {
+    font-size:16px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .bb {
+    font-size:15px;
+  }
+  .gb {
+    font-size:16px;
+  }
+  .fls {
+    font-size: 17px;
+  }
+  .writing {
+    font-size:90%;
+  }
+}
+
+iframe {
+  margin-left: 0.25rem;
+}
