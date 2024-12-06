@@ -98,11 +98,11 @@ details > p {
 
 @media only screen and (max-width: 600px) {
   main {
-    max-width: 100%;
-    font-size: 15px;
+    max-width: 150%;
+    font-size: px;
   }
   body {
-    margin: 10px 1em 1em 1em;
+    margin: px em em em;
   }
   .writing {
     font-size: 12px;
