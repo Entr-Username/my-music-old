@@ -9,3 +9,5 @@ Here is a screenshot of v0.1:
 I'm not gonna give a link since it's completely irrelevant now
 
 1/13/25 - wait sheesh I'm glad I ported it and moved to github, offlinenotepad's published link servers are down right now.
+
+1/18/25 - yay offlinenotepad's servers aren't down anymore
